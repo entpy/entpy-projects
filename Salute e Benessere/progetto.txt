@@ -1,8 +1,7 @@
 Progettazione e realizzazione sito "Estetica e Benessere"
 ==========================================================
 Entpy software | www.entpy.com
-v0.1.0, Febbraio 2014:
-Prima stesura del documento
+v0.1.1, Febbraio 2014: Aggiunti riferimenti alle promozioni postate sul frontend
 :Email: info@entpy.com
 
 == ((Contenuti)) ==
@@ -43,6 +42,7 @@ Questa è la parte *privata*.
 			*** creazione/modifica/eliminazione codici promozionali
 			*** validazione dei codici promozionali
 		** <<X4,sistema di invio codici promozionali>>
+			*** pubblicazione dei codici promozionali sul frontend
 			*** invio di codici promozionali mensili
 			*** invio di codici promozionali al compleanno
 
@@ -85,15 +85,21 @@ Funzionalità per la gestione dei codici promozionali. Sarà possibile visualizz
 		* Codice promozionale
 		* Descrizione codice promozionale (la descrizione dell'offerta)
 		* Stato (se è già stato utilizzato o no)
+		* Scadenza (indica se la promozione è ancora fruibile)
 		* Flag "promozione mensile" (la promozione che verrà inviata il primo di ogni mese ad un utente casuale)
 		* Flag "promozione compleanno" (la promozione che verrà inviata al compleanno di un utente)
 -----------------------------------------------------
 
-In un'apposita sezione è possibile validare un codice promozionale. Appena validato, il codice non sarà più utilizzabile.
+In un'apposita sezione, accessibile solo dall'amministratore, si potranno validare i codici promozionali.
+
+I codici promozionali pubblicati sul frontend, saranno validi finchè la data di scadenza è maggiore di quella attuale.
+
+I codici promozionali marcati come "*promozione mensile*" o "*promozione compleanno*", saranno validi fichè non vengono utilizzati.
 
 [[X4]]
 ==== Sistema di invio codici promozionali ====
-Questa funzionalità permette l'invio automatico dei codici promozionali, al verificarsi di determinate condizioni.
+Possiamo distinguere due tipi di codici promozionali: quelli inviati automaticamente dalla piattaforma e quelli postati manualmente dall'amministratore.
+La piattaforma invierà automaticamente i codici promozionali al verificarsi di determinate condizioni.
 
 Il primo giorno del mese verrà estratto casualmente un utente e, verrà inviata la promozione marcata come "*promozione mensile*".
 
