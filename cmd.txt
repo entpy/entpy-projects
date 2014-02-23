@@ -1,0 +1,1 @@
+a2x.py -a lang=it -f pdf -v ./progetto.txt
