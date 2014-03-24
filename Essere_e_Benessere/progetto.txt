@@ -1,6 +1,6 @@
 = Progettazione e realizzazione sito "Essere e Benessere"
 Entpy software | www.entpy.com
-v0.0.3, Marzo 2014: REVISIONE CORRENTE: Aggiunte promozioni manuali e rimosse quelle casuali
+v0.0.3, Marzo 2014: REVISIONE CORRENTE: Aggiunte promozioni manuali, rimosse quelle casuali
 :Email: info@entpy.com
 
 == ((Contenuti)) ==
@@ -128,8 +128,9 @@ Le promozioni inviate via email sono utilizzabili una sola volta, mentre le prom
 [cols="m,m,m",options="header"]
 |=========================================================
 |NUMBER |DATE         |DESCRIPTION
-|0.0.1  |January 2005 |AsciiDoc 6.0.0 additions and changes
-|0.0.2  |2004-10-10   |AsciiDoc 5.1.1 additions and changes
+|0.0.1  |Febbraio 2014 |Prima stesura del documento
+|0.0.2  |Febbraio 2014   |Aggiunti riferimenti alle promozioni postate sul frontend
+|0.0.3 (corrente)  |Febbraio 2014   |Aggiunte promozioni manuali, rimosse quelle casuali
 |=========================================================
 
 //== ((Tempistiche)) ==
