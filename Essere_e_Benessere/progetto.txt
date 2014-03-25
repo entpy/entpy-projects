@@ -10,23 +10,6 @@ Il *frontend* sarà una presentazione dei lavori e dei servizi che l'attività h
 
 Il *backend*, accessibile tramite username e password solo dagli amministratori, permetterà la gestione di utenti (creazione, modifica, eliminazione) e dei codici promozionali (creazione, modifica, eliminazione).
 
-=== ((Frontend,Contenuti)) ===
-Questa è la parte *pubblica*.
-
-- Funzionalità messe a disposizione.
-	* navigazione attraverso i contenuti del sito
-	* registrazione di utenti per ricevere offerte
-
-=== ((Backend,Contenuti)) ===
-Questa è la parte *privata*.
-
-- Funzionalità messe a disposizione:
-	* gestione degli utenti
-		** inserimento/modifica/eliminazione utenti
-	* gestione dei codici promozionali
-		** inserimento/modifica/eliminazione dei codici promozionali
-	* sistema di invio codici promozionali
-
 == ((Schema funzionale)) ==
 	* *Frontend*
 		** <<X1,navigazione nei contenuti del sito>>
@@ -84,28 +67,28 @@ Funzionalità per la gestione dei codici promozionali. Sarà possibile visualizz
 -----------------------------------------------------
 	- Una promozione è formata dalle seguenti proprietà:
 		* Codice promozionale
-		* Descrizione codice promozionale (la descrizione dell'offerta)
+		* Descrizione (la descrizione dell'offerta)
 		* Immagini (massimo 3, rappresentano graficamente l'oggetto della promozione)
-		* Stato (se è già stato utilizzato o no)
+		* Stato (se è già stato utilizzata o no)
 		* Scadenza (indica se la promozione è ancora fruibile)
 		* Flag "tipo di promozione" (indica il tipo di promozione, può essere "promozione manuale", "promozione compleanno" oppure "post su frontend")
 -----------------------------------------------------
 
 In un'apposita sezione, accessibile solo dall'amministratore, si potranno validare i codici promozionali.
 
-I codici promozionali pubblicati sul frontend, saranno validi finchè la data di scadenza è maggiore di quella attuale.
+I codici promozionali pubblicati sul *frontend*, saranno validi finchè la data di scadenza è *maggiore* di quella attuale.
 
-I codici promozionali marcati come "*promozione manuale*" o "*promozione compleanno*" sono utilizzabili una volta sola.
+I codici promozionali marcati come "*promozione manuale*" o "*promozione compleanno*" saranno utilizzabili *una volta* sola.
 
 [[X4]]
 ==== Sistema di invio codici promozionali ====
 I codici promozionali possono essere inviati mediante due metodi:
 
-* Invio via Email
+* Invio tramite email
 * Post sul frontend
 
 Tra i codici inviati via email fanno parte le "*promozioni manuali*" e le "*promozioni compleanno*".
-La differenza sostanziale tra le "*promozioni manuali*" e le "*promozioni compleanno*" è la logica di invio. Le "*promozioni compleanno*" saranno inviate automaticamente al verificarsi della corrispondenza tra data di nascita dell'utente e giorno corrente.
+La differenza sostanziale tra le "*promozioni manuali*" e le "*promozioni compleanno*" è la logica di invio. Le "*promozioni compleanno*" saranno inviate automaticamente al verificarsi della corrispondenza tra data di nascita dell'utente e giorno corrente. Le "*promozioni manuali*" saranno inviate dopo aver selezionato i destinatari da un elenco di utenti.
 
 Le promozioni inviate via email sono utilizzabili una sola volta, mentre le promozioni postate sul frontend saranno valide fino alla loro scadenza.
 
@@ -127,17 +110,17 @@ Le promozioni inviate via email sono utilizzabili una sola volta, mentre le prom
 == ((Elenco revisioni)) ==
 [cols="m,m,m",options="header"]
 |=========================================================
-|NUMBER |DATE         |DESCRIPTION
+|Versione |Data         |Descrizione
 |0.0.1  |Febbraio 2014 |Prima stesura del documento
 |0.0.2  |Febbraio 2014   |Aggiunti riferimenti alle promozioni postate sul frontend
-|0.0.3 (corrente)  |Febbraio 2014   |Aggiunte promozioni manuali, rimosse quelle casuali
+|0.0.3 (corrente)  |Marzo 2014   |Aggiunte promozioni manuali, rimosse quelle casuali
 |=========================================================
 
 //== ((Tempistiche)) ==
 //[width="50%",cols="m,m",frame="topbot",options="header"]
 //|=======================================================
 //|lavoro|tempo
-//|Realizzazione della piattaforma | -
+//|Realizzazione | -
 //|Debugging e test | -
 //|Fase pilota e affiancamento | -
 //|=======================================================
