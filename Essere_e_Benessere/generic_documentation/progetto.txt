@@ -1,0 +1,136 @@
+= Progettazione e realizzazione sito "Essere e Benessere"
+Entpy software | www.entpy.com
+v0.0.3, Marzo 2014: REVISIONE CORRENTE: Aggiunte promozioni manuali, rimosse quelle casuali
+:Email: info@entpy.com
+
+== ((Contenuti)) ==
+Il sito è suddiviso in due parti, una parte pubblica e una privata, da qui in poi definite relativamente come frontend e backend.
+
+Il *frontend* sarà una presentazione dei lavori e dei servizi che l'attività ha da offrire, in più ci sarà una pagina di registrazione che permetterà agli utenti di ricevere codici promozionali.
+
+Il *backend*, accessibile tramite username e password solo dagli amministratori, permetterà la gestione di utenti (creazione, modifica, eliminazione) e dei codici promozionali (creazione, modifica, eliminazione).
+
+== ((Schema funzionale)) ==
+	* *Frontend*
+		** <<X1,navigazione nei contenuti del sito>>
+			*** navigazione attraverso le sezioni
+			*** registrazione utenti per ricevere offerte
+	* *Backend*
+		** <<X2,gestione utenti>>
+			*** visualizzazione utenti
+			*** creazione/modifica/eliminazione utenti
+		** <<X3,gestione dei codici promozionali>>
+			*** visualizzazione dei codici promozionali
+			*** creazione/modifica/eliminazione codici promozionali
+			*** validazione dei codici promozionali
+		** <<X4,sistema di invio codici promozionali>>
+			*** pubblicazione manuale dei codici promozionali sul frontend
+			*** invio manuale dei codici promozionali
+			*** invio automatico di codici promozionali al compleanno
+
+== ((Analisi delle funzionalit&agrave;)) ==
+=== ((Frontend,Analisi delle funzionalit&agrave;)) ===
+[[X1]]
+==== Navigazione nei contenuti del sito ====
+Visualizzazione dei contenuti del sito. Le sezioni identificate sono le seguenti:
+
+-----------------------------------------------------
+	* Home page
+	* Chi siamo
+	* I nostri lavori
+	* Le nostre offerte
+	* Contatti
+-----------------------------------------------------
+
+La sezione "*Le nostre offerte*" mostrerà tutte le offerte postate manualmente ancora valide. Inoltre permetterà la registrazione di utenti  per ricevere offerte manuali e/o al compleanno.
+
+-----------------------------------------------------
+	- Un utente è formato dalle seguenti proprietà:
+		* Nome
+		* Cognome
+		* Email
+		* Telefono (facoltativo)
+		* Data di nascita (facoltativa)
+		* Consenso per ricevere promozioni
+		* Cliente affezionato
+-----------------------------------------------------
+
+=== ((Backend,Analisi delle funzionalit&agrave;)) ===
+[[X2]]
+==== Gestione utenti ====
+Funzionalità per la gestione del database degli utenti. Sarà possibile visualizzare tutti gli utenti registrati sul sito, modificarne i dati, aggiungerne di nuovi o eliminarli.
+
+[[X3]]
+==== Gestione dei codici promozionali ====
+Funzionalità per la gestione dei codici promozionali. Sarà possibile visualizzare tutti i codici promozionali, modificarne le informazioni, aggiungerne di nuovi o eliminarli.
+
+-----------------------------------------------------
+	- Una promozione è formata dalle seguenti proprietà:
+		* Codice promozionale
+		* Descrizione (la descrizione dell'offerta)
+		* Immagini (massimo 3, rappresentano graficamente l'oggetto della promozione)
+		* Stato (se è già stato utilizzata o no)
+		* Scadenza (indica se la promozione è ancora fruibile)
+		* Flag "tipo di promozione" (indica il tipo di promozione, può essere "promozione manuale", "promozione compleanno" oppure "post su frontend")
+-----------------------------------------------------
+
+In un'apposita sezione, accessibile solo dall'amministratore, si potranno validare i codici promozionali.
+
+I codici promozionali pubblicati sul *frontend*, saranno validi finchè la data di scadenza è *maggiore* di quella attuale.
+
+I codici promozionali marcati come "*promozione manuale*" o "*promozione compleanno*" saranno utilizzabili *una volta* sola.
+
+[[X4]]
+==== Sistema di invio codici promozionali ====
+I codici promozionali possono essere inviati mediante due metodi:
+
+* Invio tramite email
+* Post sul frontend
+
+Tra i codici inviati via email fanno parte le "*promozioni manuali*" e le "*promozioni compleanno*".
+La differenza sostanziale tra le "*promozioni manuali*" e le "*promozioni compleanno*" è la logica di invio. Le "*promozioni compleanno*" saranno inviate automaticamente al verificarsi della corrispondenza tra data di nascita dell'utente e giorno corrente. Le "*promozioni manuali*" saranno inviate dopo aver selezionato i destinatari da un elenco di utenti.
+
+Le promozioni inviate via email sono utilizzabili una sola volta, mentre le promozioni postate sul frontend saranno valide fino alla loro scadenza.
+
+==== Riepilogo tipologia di promozioni ====
+** Promozioni automatiche
+	*** promozioni compleanno (invio tramite email)
+** Promozioni manuali
+	*** promozioni manuali (invio tramite email)
+	*** pubblicazione sul frontend (post sul frontend)
+
+[width="33%",cols="m,m,m",frame="topbot",options="header"]
+|=========================================================
+|Nome promozione|Metodo di invio|Tipo di invio
+|Promozione compleanno | email | automatico
+|Promozione manuale | email | manuale
+|Pubblicazione sul frontend | post sul frontend | manuale
+|=========================================================
+
+== ((Elenco revisioni)) ==
+[cols="m,m,m",options="header"]
+|=========================================================
+|Versione |Data         |Descrizione
+|0.0.1  |Febbraio 2014 |Prima stesura del documento
+|0.0.2  |Febbraio 2014   |Aggiunti riferimenti alle promozioni postate sul frontend
+|0.0.3 (corrente)  |Marzo 2014   |Aggiunte promozioni manuali, rimosse quelle casuali
+|=========================================================
+
+//== ((Tempistiche)) ==
+//[width="50%",cols="m,m",frame="topbot",options="header"]
+//|=======================================================
+//|lavoro|tempo
+//|Realizzazione | -
+//|Debugging e test | -
+//|Fase pilota e affiancamento | -
+//|=======================================================
+
+//== ((Costi di realizzazione)) ==
+//[width="50%",cols="m,m",frame="topbot",options="header"]
+//|=======================================================
+//|lavoro|costo
+//|Costo realizzazione| -
+//|Costo dominio annuale | -
+//|Costo hosting mensile | -
+//|Costo manutenzione annuale| -
+//|=======================================================

@@ -1,0 +1,54 @@
+= Progettazione e realizzazione sito "Essere e Benessere"
+Entpy software | www.entpy.com
+v0.0.1, Giugno 2014
+:Email: info@entpy.com
+
+== ((Contenuti)) ==
+Definizione della struttura del database relazionale e delle entità rilevate.
+Le entità rilevate sono: account, promotion.
+Tra le entità *account* e *promotion* si genera una relazione N-N, con conseguente tabella di join *campaign*.
+
+== ((Attributi delle entità)) ==
+	* *account*
+		** id_account
+		** first_name
+		** last_name
+		** email
+		** mobile_phone
+		** birthday_date
+		** receive_promotions
+		** loyal_customer
+		** status
+	* *promotion*
+		** id_promotion
+		** code
+		** name
+		** description
+		** expiring_date
+		** type
+		** status
+	* *campaign*
+		** id_account
+		** id_promotion
+		** status
+
+
+--------------------------------------------------------------------------------------------------------------------------
+|  *account*  |								      		
++-----------------------+							      		
+|  id_account *(PK)*	|							      		|  *promotion*  |	 
+|  first_name 		|     >ricevono>				    >contengono>     	+-----------------------+
+|  last_name 		|		     |  *campaign*  |    	  			|  id_promotion *(PK)*	|
+|  email 		| 0,N		1,N  +-------------------------+ 1,N	           0,N  |  code 		|
+|  mobile_phone 	|<------------------>|  id_campaign *(PK)*     |<---------------------->|  name 		|
+|  birthday_date 	|		     |  id_account *(PPK)*     |			|  description 		|
+|  receive_promotions 	|		     |  id_promotion *(PPK)*   |			|  expiring_date 	|
+|  loyal_customer 	|		     |  status		       |   		     	|  type 		|
+|  status 		|		     +-------------------------+   		     	+-----------------------+
++-----------------------+								     	
+--------------------------------------------------------------------------------------------------------------------------
+
+== ((Schema logico)) ==
+account(id_account(PK), first_name, last_name, email, mobile_phone, birthday_date, receive_promotions, loyal_customer, status)
+promotion(id_promotion(PK), code, name, description, expiring_date, type)
+campaign(id_campaign(PK), id_account(PPK), id_promotion(PPK), status)
