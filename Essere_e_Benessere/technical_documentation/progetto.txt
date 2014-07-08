@@ -21,7 +21,6 @@ Tra le entità *account* e *promotion* si genera una relazione N-N, con consegue
 		** status
 	* *promotion*
 		** id_promotion
-		** code
 		** name
 		** description
 		** expiring_date
@@ -30,6 +29,7 @@ Tra le entità *account* e *promotion* si genera una relazione N-N, con consegue
 	* *campaign*
 		** id_account
 		** id_promotion
+		** code
 		** status
 
 
@@ -37,18 +37,57 @@ Tra le entità *account* e *promotion* si genera una relazione N-N, con consegue
 |  *account*  |								      		
 +-----------------------+							      		
 |  id_account *(PK)*	|							      		|  *promotion*  |	 
+|  first_name 		|     >ricevono>				         		+-----------------------+
+|  last_name 		|		     |  *campaign*  |    	  			|  id_promotion *(PK)*	|
+|  email 		| 0,N		1,N  +------------------------------+  			|  code 		|
+|  mobile_phone 	|<------------------>|  id_campaign *(PK)*     	    |			|  name 		|
+|  birthday_date 	|		     |  id_account *(FK)*           |			|  description 		|
+|  receive_promotions 	|		     |  id_promotion_code *(FK)*    |			|  expiring_date 	|
+|  loyal_customer 	|		     |  status		            |   	     	|  type 		|
+|  status 		|		     +------------------------------+   	     	+-----------------------+
++-----------------------+				| 1,1 >contengono>					| 1,N >contengono>
+							|							|
+							|							|
+							|							|
+							|							|
+							|							|
+							|							|
+							|							|
+							|							|
+							|							|
+							|		|  *promotion_code*  | 			|
+							|		+---------------------------+		|
+							|	    1,1	|  id_promotion_code *(PK)* | 0,N	|
+							+--------------<|  id_promotion *(FK)*      |<----------+							
+									|  id_promotion *(FK)*      |
+									|  status		    |
+									+---------------------------+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+|  *account*  |								      		
++-----------------------+							      		
+|  id_account *(PK)*	|							      		|  *promotion*  |	 
 |  first_name 		|     >ricevono>				    >contengono>     	+-----------------------+
 |  last_name 		|		     |  *campaign*  |    	  			|  id_promotion *(PK)*	|
-|  email 		| 0,N		1,N  +-------------------------+ 1,N	           0,N  |  code 		|
-|  mobile_phone 	|<------------------>|  id_campaign *(PK)*     |<---------------------->|  name 		|
-|  birthday_date 	|		     |  id_account *(PPK)*     |			|  description 		|
-|  receive_promotions 	|		     |  id_promotion *(PPK)*   |			|  expiring_date 	|
-|  loyal_customer 	|		     |  status		       |   		     	|  type 		|
-|  status 		|		     +-------------------------+   		     	+-----------------------+
-+-----------------------+								     	
+|  email 		| 0,N		1,N  +-------------------------+ 1,N	           0,N  |  name 		|
+|  mobile_phone 	|<------------------>|  id_campaign *(PK)*     |<---------------------->|  description 		|
+|  birthday_date 	|		     |  id_account *(PPK)*     |			|  expiring_date 	|
+|  receive_promotions 	|		     |  id_promotion *(PPK)*   |			|  type 		|
+|  loyal_customer 	|		     |  code		       |   		     	+-----------------------+
+|  status 		|		     |  status 		       |   		     	
++-----------------------+		     +-------------------------+   					     	
+                                             
+
+
+
+
+
+
 --------------------------------------------------------------------------------------------------------------------------
 
 == ((Schema logico)) ==
 account(id_account(PK), first_name, last_name, email, mobile_phone, birthday_date, receive_promotions, loyal_customer, status)
-promotion(id_promotion(PK), code, name, description, expiring_date, type)
-campaign(id_campaign(PK), id_account(PPK), id_promotion(PPK), status)
+promotion(id_promotion(PK), name, description, expiring_date, type)
+campaign(id_campaign(PK), id_account(PPK), id_promotion(PPK), code, status)
