@@ -90,4 +90,4 @@ Tra le entità *account* e *promotion* si genera una relazione N-N, con consegue
 == ((Schema logico)) ==
 account(id_account(PK), first_name, last_name, email, mobile_phone, birthday_date, receive_promotions, loyal_customer, status)
 promotion(id_promotion(PK), name, description, expiring_date, type)
-campaign(id_campaign(PK), id_account(PPK), id_promotion(PPK), code, status)
+campaign(id_campaign(PK), id_account(FK), id_promotion(FK), code, status)
