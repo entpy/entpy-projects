@@ -7,7 +7,7 @@ v0.0.1, Agosto 2014
 Definizione della struttura del database relazionale e delle entità rilevate.
 Le entità rilevate sono: promotional_code, code_type, code_content.
 Tra le entità *code_type* e *promotional_code* si genera una relazione 1-N.
-Tra le entità *promotional_code* e *code_content* si genera una relazione 1-N.
+Tra le entità *promotional_code* e *code_content* si genera una relazione N-N.
 
 == ((Attributi delle entità)) ==
 	* *promotional_code*
@@ -30,11 +30,9 @@ Tra le entità *promotional_code* e *code_content* si genera una relazione 1-N.
 
 == ((Schema relazionale)) ==
 
-	                 (1,N)                                               (1,N)
+	                 (1,N)                                               (N,N)
 | *code_type* |------------------------->| *promotional_code* |------------------------------>| *code_content* |						      		
-              1                          N                    1                               N
-
-
+              1                          N                    N                               N
 
 == ((Schema logico)) ==
 promotional_code(id_promotional_code(PK), id_code_type(FK), id_code_content(FK), code, already_used, creation_date, expiring_date, redeem_date)
