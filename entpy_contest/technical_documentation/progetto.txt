@@ -1,0 +1,42 @@
+= Progettazione e realizzazione sito "Entpy Contest"
+Entpy software | www.entpy.com
+v0.0.1, Agosto 2014
+:Email: info@entpy.com
+
+== ((Contenuti)) ==
+Definizione della struttura del database relazionale e delle entità rilevate.
+Le entità rilevate sono: promotional_code, code_type, code_content.
+Tra le entità *code_type* e *promotional_code* si genera una relazione 1-N.
+Tra le entità *promotional_code* e *code_content* si genera una relazione 1-N.
+
+== ((Attributi delle entità)) ==
+	* *promotional_code*
+		** id_promotional_code
+		** id_code_type
+		** id_code_content
+		** code
+		** already_used
+		** creation_date
+		** expiring_date
+		** redeem_date
+	* *code_type*
+		** id_code_type
+		** code_type
+		** description
+	* *code_content*
+		** id_code_content
+		** content
+
+
+== ((Schema relazionale)) ==
+
+	                 (1,N)                                               (1,N)
+| *code_type* |------------------------->| *promotional_code* |------------------------------>| *code_content* |						      		
+              1                          N                    1                               N
+
+
+
+== ((Schema logico)) ==
+promotional_code(id_promotional_code(PK), id_code_type(FK), id_code_content(FK), code, already_used, creation_date, expiring_date, redeem_date)
+code_type(id_code_type(PK), code_type, description)
+code_content(id_code_content(PK), content)
