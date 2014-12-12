@@ -1,0 +1,35 @@
+= Progettazione piattaforma
+v0.0.1, Dicembre 2014
+
+== ((Contenuti)) ==
+Piattaforma per votare la modella o il modello più belli del mese o della città.
+
+== ((Come funziona)) ==
+=== Per le modelle ===
+I modelli che vogliono farsi votare devono iscriversi alla piattaforma, bastano pochi dati, nickname, sesso, email e password. A termine di questa
+breve registrazione, accederanno alla pagina profilo, dove sarà possibile inserire un'immagine principale (quella del profilo appunto) e diverse foto
+aggiuntive per offrire materiale a chi vota.
+
+=== Per i votanti ===
+Il votante (colui che naviga sulla piattaforma), vedrà come prima cosa, in home page, le 5 modelle più belle e i 5 più belli votati fino a quel momento.
+Potrà a sua volta entrare nelle due grandi categorie (uomo/donna), per poter navigare la lista completa.
+Obiettivo della navigazione è il voto della modella/modello preferiti.
+
+== ((Target di eta')) ==
+Dai 20 ai 35 anni.
+
+Obiettivi piattaforma:
+Generare un alto traffico di utenza e alto tasso di ritorno, le revenue verranno generate in un secondo momento mediante banner
+pubblicitari poco invadenti (ma questo in futuro), per iniziare tutto sarà gratuito e senza pubblicità.
+
+== ((Note e dubbi vari)) ==
+=== Funzionamento ===
+-1. Tempo
+Al termine dell'anno, verra composto il calendario con i 12 modelli/modelle migliori votate dalla comunity.
+
+-2. Luogo
+Al termine dell'anno, verra composta una mappa suddivia per regione con i modelli/modelle migliori votate dalla comunity.
+Quale delle due alternative (1 o 2) è la migliore?
+
+=== Votazioni ===
+Capire come gestire le votazioni.
