@@ -9,7 +9,7 @@ Piattaforma per votare la modella o il modello più belli del mese.
 == ((Come funziona)) ==
 === Per le modelle ===
 I modelli e le modelle che vogliono farsi votare, da qui in poi definiti come "partecipanti", devono iscriversi alla piattaforma, bastano pochi dati, nickname, sesso, data di nascita, email e password.
-A termine di questa breve registrazione, accederanno alla pagina profilo, dove sarà possibile inserire un'immagine principale (quella del profilo appunto) e diverse foto
+A termine di questa breve fase di registrazione, accederanno alla pagina profilo, dove sarà possibile inserire un'immagine principale (quella del profilo appunto) e diverse foto
 aggiuntive, oltre che alcuni dati facoltativi, come una breve descrizioni di essi e una massima in cui ci si ritrova, tutto questo per offrire materiale ai votanti.
 
 === Per i votanti ===
@@ -38,15 +38,3 @@ Il target di votanti è ipotizzabile in un range che va dai 18 ai 45 anni.
 La piattaforma si propone di rimanere gratuita, sia per i votanti che per i partecipanti.
 L'obiettivo principale è quello di offrire un palco di confronto, questo vale solo per i partecipanti.
 I votanti, mediante una valutazione superficiale, fungeranno da giuria, diventando gli aghi della bilancia del sito.
-
-== ((Note e dubbi vari)) ==
-=== Funzionamento ===
--1. Tempo
-Al termine dell'anno, verra composto il calendario con i 12 modelli/modelle migliori votate dalla comunity.
-
--2. Luogo
-Al termine dell'anno, verra composta una mappa suddivia per regione con i modelli/modelle migliori votate dalla comunity.
-Quale delle due alternative (1 o 2) è la migliore?
-
-=== Votazioni ===
-Capire come gestire le votazioni.
