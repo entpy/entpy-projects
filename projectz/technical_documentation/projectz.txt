@@ -1,0 +1,45 @@
+= Progettazione piattaforma
+Entpy software | www.entpy.com
+v0.0.1, Dicembre 2014: REVISIONE CORRENTE: Prima stesura del documento
+:Email: info@entpy.com
+
+== ((Analisi funzionale)) ==
+La piattaforma è suddivisa in due parti:
+
+-----------------------------------------------------
+	* Parte pubblica (da qui in avanti definita come "passerella")
+	* Parte privata (da qui in avanti definita come "profilo" )
+-----------------------------------------------------
+
+Qui di seguito verranno definite le funzionalità messe a disposizione dalla passerella e dal profilo
+
+
+=== Passerella ===
+Le funzionalità rilevate sono:
+
+-----------------------------------------------------
+	* Iscrizione per la passerella
+	* Visualizzazione passerella
+	* Votazione partecipanti
+-----------------------------------------------------
+
+=== Profilo ===
+Le funzionalità rilevate sono:
+
+-----------------------------------------------------
+	* Modifica dei dati del profilo
+	* Aggiunta/rimozione foto per la passerella
+	* Visualizzazione statistiche (visite, punti, posizione in classifica, ...)
+	* Eliminazione del profilo
+-----------------------------------------------------
+
+== ((Analisi relazionale)) ==
+Definizione della struttura del database relazionale.
+Le entità rilevate sono le seguenti:
+
+-----------------------------------------------------
+	* Partecipanti
+	* Votanti
+	* Votazioni
+-----------------------------------------------------
+

@@ -20,7 +20,7 @@ Obiettivo della navigazione è il voto della modella/modello preferiti.
 == ((Le votazioni)) ==
 
 === Funzionamento ===
-La fase di voto, ovvero l'assegnazione di un punteggio dai votanti ai partecipanti, si svolgerà nella seguente maniera.
+La fase di voto, ovvero l'assegnazione di un punteggio da parte dei votanti verso i partecipanti, si svolgerà nella seguente maniera.
 Un votante potrà votare lo stesso partecipante una sola volta nell'arco di 24 ore, rispetto all'ultima votazione fatta.
 Non viene posto nessun vincolo sul numero di partecipanti da votare, quindi un votante può votare più partecipanti diversi nell'arco delle 24 ore.
 Il voto ha un range che varia da 1 a 5.
