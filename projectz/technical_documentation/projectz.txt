@@ -35,11 +35,41 @@ Le funzionalità rilevate sono:
 
 == ((Analisi relazionale)) ==
 Definizione della struttura del database relazionale.
+=== Entita' rilevate ===
 Le entità rilevate sono le seguenti:
 
 -----------------------------------------------------
-	* Partecipanti
-	* Votanti
-	* Votazioni
+	* Participants
+	* Votes
 -----------------------------------------------------
+
+=== Attributi delle entita' ===
+Gli attributi rilevati per ogni entità:
+
+==== Participants ====
+
+-----------------------------------------------------
+	* id_participant (PK)
+	* first_name
+	* last_name
+	* username
+	* email
+	* password
+	* city
+	* country
+	* gender
+-----------------------------------------------------
+
+==== Votes ====
+
+-----------------------------------------------------
+	* id_vote (PK)
+	* id_participant
+	* ip_address
+	* date
+	* vote
+-----------------------------------------------------
+
+|Votes| O--------------> |Participants|
+	0              N
 
