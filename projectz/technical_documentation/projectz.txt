@@ -8,7 +8,7 @@ La piattaforma è suddivisa in due parti:
 
 -----------------------------------------------------
 	* Parte pubblica (da qui in avanti definita come "passerella")
-	* Parte privata (da qui in avanti definita come "profilo" )
+	* Parte privata (da qui in avanti definita come "profilo privato" )
 -----------------------------------------------------
 
 Qui di seguito verranno definite le funzionalità messe a disposizione dalla passerella e dal profilo
@@ -18,12 +18,14 @@ Qui di seguito verranno definite le funzionalità messe a disposizione dalla pas
 Le funzionalità rilevate sono:
 
 -----------------------------------------------------
-	* Iscrizione per la passerella
+	* Iscrizione alla piattaforma
 	* Visualizzazione passerella
-	* Votazione partecipanti
+	* Visualizzazione book partecipante
+	* Votazione partecipante
+	* Aggiunta di un partecipante all'elenco preferiti
 -----------------------------------------------------
 
-=== Profilo ===
+=== Profilo privato ===
 Le funzionalità rilevate sono:
 
 -----------------------------------------------------
@@ -41,6 +43,7 @@ Le entità rilevate sono le seguenti:
 -----------------------------------------------------
 	* Participants
 	* Votes
+	* Contest
 -----------------------------------------------------
 
 === Attributi delle entita' ===
@@ -58,6 +61,8 @@ Gli attributi rilevati per ogni entità:
 	* city
 	* country
 	* gender
+	* creation_date
+	* update_date
 -----------------------------------------------------
 
 ==== Votes ====
