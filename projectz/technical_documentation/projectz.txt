@@ -41,13 +41,26 @@ Definizione della struttura del database relazionale.
 Le entità rilevate sono le seguenti:
 
 -----------------------------------------------------
+	* Contests
 	* Participants
+	* Contest_Stats
 	* Votes
-	* Contest
+	* Metrics
 -----------------------------------------------------
 
 === Attributi delle entita' ===
 Gli attributi rilevati per ogni entità:
+
+==== Contests ====
+
+-----------------------------------------------------
+	* id_contest (PK)
+	* start_date
+	* end_date
+	* name
+	* description
+	* status (0 in attesa di apertura, 1 attivo, 2 chiuso)
+-----------------------------------------------------
 
 ==== Participants ====
 
@@ -65,16 +78,34 @@ Gli attributi rilevati per ogni entità:
 	* update_date
 -----------------------------------------------------
 
+==== Contest_Stats ====
+
+-----------------------------------------------------
+	* id_contest_stat (PK)
+	* id_participant
+	* id_contest
+	* id_metric
+	* points
+-----------------------------------------------------
+
 ==== Votes ====
 
 -----------------------------------------------------
 	* id_vote (PK)
 	* id_participant
+	* id_contest
 	* ip_address
 	* date
-	* vote
 -----------------------------------------------------
 
-|Votes| O--------------> |Participants|
-	0              N
+==== Metrics ====
 
+-----------------------------------------------------
+	* id_metric (PK)
+	* name
+	* min_limit
+	* max_limit
+-----------------------------------------------------
+
+== ((UML)) ==
+Definire qua l'UML.
