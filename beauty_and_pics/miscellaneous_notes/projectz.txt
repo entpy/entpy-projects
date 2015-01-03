@@ -1,0 +1,32 @@
+= Progettazione piattaforma
+Entpy software | www.entpy.com
+v0.0.1, Dicembre 2014: REVISIONE CORRENTE: Prima stesura del documento
+:Email: info@entpy.com
+
+== ((Note e dubbi vari)) ==
+=== Funzionamento ===
+-1. Tempo
+Al termine dell'anno, verra composto il calendario con i 12 modelli/modelle migliori votate dalla comunity.
+
+-2. Luogo
+Al termine dell'anno, verra composta una mappa suddivia per regione con i modelli/modelle migliori votate dalla comunity.
+Quale delle due alternative (1 o 2) è la migliore?
+
+=== Votazioni ===
+La logica delle votazioni dovrà seguire i seguenti punti.
+Un votante potrà votare lo stesso partecipante una volta sola nell'arco di 24 ore.
+Per far si che questo accada verrà utilizzata una tabella dove, ad ogni votazione, sarà salvato
+id del partecipante, indirizzo ip del votante e data di votazione.
+Ogni ora, uno script in background, si occuperà di rimuovere le righe con data di votazione maggiore di 24 ore.
+Sicchè, un votante, possa nuovamente rivotare lo stesso partecipante già votato nelle 24 ore precedenti.
+
+== ((Nome)) ==
+areyoutrandy
+pics and chic
+fineandfame.com
+websunbeam.com
+thebeautyoftomorrow.com
+beautyandfine.com
+beautyandpics.com
+
+

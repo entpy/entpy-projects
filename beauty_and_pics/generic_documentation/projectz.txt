@@ -1,0 +1,87 @@
+= Progettazione project_name
+Entpy software | www.entpy.com
+v0.0.1, Dicembre 2014: REVISIONE CORRENTE: Prima stesura del documento
+:Email: info@entpy.com
+
+== ((Contenuti)) ==
+project_name estende a misura di web il concetto di concorso di bellezza, 
+rendendolo più *divertente*, *coinvolgente* e *aperto* a tutti.
+I voti seguiranno tre semplici metriche: sguardo, sorriso e complessivo.
+Mentre i voti per *sguardo* e *sorriso* hanno l'obiettivo di valutare due caratteristiche dettagliate, il voto complessivo valuterà la persona nella sua totalità (ovviamente limitandosi ad un fattore puramente estetico).
+I partecipanti che trionferanno sugli altri, racchiuderanno il mix perfetto di questi tre aspetti.
+
+== ((Come funziona)) ==
+In tutti i concorsi di bellezza troviamo due controparti: i modelli e la giuria.
+
+=== Per i partecipanti ===
+I ragazzi e le ragazze che vogliono farsi votare (da qui in poi definiti come "*partecipanti*"), devono iscriversi alla piattaforma, oltre che avere *almeno 18 anni*.
+Bastano pochi dati, nome, cognome, sesso, data di nascita, email e password.
+A termine di questa breve fase di registrazione, accederanno alla pagina profilo, dove sarà possibile inserire un'immagine principale (quella del profilo appunto) e diverse foto aggiuntive, oltre che alcuni dati facoltativi.
+
+=== Per i votanti ===
+Il *votante* (colui che naviga sulla piattaforma per votare i partecipanti), accederà inizialmente nella home page. Dopo aver selezionato la passerella uomo o donna, vedrà la lista dei partecipanti, ordinata secondo la posizione in classifica o in base a un criterio da lui definito (data di iscrizione, età, ecc...).
+Obiettivo della navigazione è il voto del partecipante preferito.
+
+== ((Le votazioni)) ==
+
+=== Funzionamento ===
+La fase di voto, ovvero l'assegnazione di un punteggio da parte dei votanti verso i partecipanti, si svolgerà nella seguente maniera.
+Un votante potrà votare lo stesso partecipante una sola volta nell'arco di 7 giorni.
+Non viene posto nessun vincolo sul numero di partecipanti che è possibile votare, quindi un votante può votare più partecipanti diversi nell'arco della settimana.
+Inoltre, per votare non è necessario iscriversi alla piattaforma, azione invece necessaria se si vogliono aggiungere dei partecipanti all'elenco *preferiti*.
+Il voto ha un range che varia da 1 a 5 per ogni metrica, tranne che per la metrica *complessiva*, dove il range varierà da 1 a 10.
+Qui di seguito sono riassunte le metriche con i relativi punteggi assegnabili.
+
+[width="50%",cols="m,m",frame="topbot",options="header"]
+|=======================================================
+|Metrica|Range di valori
+|Sguardo | 1-5
+|Sorriso | 1-5
+|Complessivo | 1-10
+|=======================================================
+
+=== Vincitori ===
+La vittoria avviene totalizzando più punti in un periodo di tempo determinato, della durata di 11 mesi.
+
+[width="50%",cols="m,m",frame="topbot",options="header"]
+|=======================================================
+|*Nome concorso principale*|*Durata (mesi)*
+|Miss/Mister anno xxxx | 11
+|=======================================================
+
+A fine periodo NON è possibile avere due partecipanti con gli stessi punti, pertanto, si procederà mediante spareggio, estendendo la gara di sette giorni.
+Se dopo sette giorni ci saranno ancora due o più partecipanti con gli stessi punti, si estenderà la gara di altri sette giorni e così via.
+
+Durante il periodo che va dall'undicesimo al dodicesimo mese dell'anno (l'ultimo mese), se nessun concorso è in attesa di chiusura (quindi non ci sono spareggi in corso, in entrambe le passerelle), è comunque possibile registrarsi a project_name, ma le votazioni rimarranno sospese fino al 1 gennaio del nuovo anno.
+Differenziare la valutazione in tre metriche permette di definire dei sotto concorsi rispetto al flusso principale, permettendo di eleggere una miss/mister sorriso e una miss/mister sguardo.
+Il riepilogo dei sottoconcorsi è visibile nella tabella sottostante.
+
+[width="50%",cols="m,m",frame="topbot",options="header"]
+|=======================================================
+|*Nome sottoconcorso*|*Durata (mesi)*
+|Miss/Mister sguardo anno xxxx | 10
+|Miss/Mister sorriso anno xxxx | 10
+|=======================================================
+
+Se a fine periodo ci saranno due o più partecipanti con lo stesso numero di punti (per sguardo e sorriso), si valuteranno i punti globali, agganciadosi così al flusso del concorso principale.
+
+== ((Affinita' (da implementare in una seconda fase))) ==
+Per rendere più appetibile l'iscrizione alla piattaforma, viene messo a disposizione un sistema di affinità tra partecipanti, cioè, in base a determinati criteri verranno indicate le persone con cui si è più affini (mostrando anche le affinità).
+I votanti stessi a loro volta, potranno vedere le affinità tra un gruppo di partecipanti, per esempio 6 dei 10 partecipanti selezionati hanno gli occhi azzurri e, 4 di questi rientrano nella classifica dei top 10 (quindi vuol dire che gli occhi azzurri in quel momento prevalgono ed incidono positivamente nella valutazione), con conseguente boom di vendite delle lenti a contatto azzurre.
+
+== ((Target di eta')) ==
+I partecipanti devono avere almeno 18 anni per potersi iscrivere.
+Il target dei votanti è ipotizzabile in un range che va dai 18 ai 45 anni.
+
+== ((Obiettivi piattaforma)) ==
+La piattaforma si propone di rimanere gratuita, sia per i votanti che per i partecipanti.
+Primo obiettivo: offrire un palco di confronto per chi voglia mettersi in gioco.
+Secondo obiettivo: capire il trend del mercato attuale mettendo in relazione le caratteristiche dei partecipanti.
+I votanti, mediante una valutazione superficiale, fungeranno da giuria, diventando gli aghi della bilancia di project_name, replicando le tendenze del mondo attuale sulla piattaforma.
+
+== ((Elenco revisioni)) ==
+[cols="m,m,m",options="header"]
+|=========================================================
+|Versione|Data|Descrizione
+|0.0.1 | Dicembre 2014 | Prima stesura del documento
+|=========================================================
