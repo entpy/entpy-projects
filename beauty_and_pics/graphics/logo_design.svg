@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo_design.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -14573,16 +14573,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="798.48161"
-     inkscape:cy="673.08225"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="422.77081"
+     inkscape:cy="267.88469"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1375"
-     inkscape:window-height="876"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1280"
+     inkscape:window-height="965"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -14606,12 +14606,19 @@
      id="layer1"
      transform="translate(518.46142,-11.380392)">
     <rect
+       style="fill:#f54325;fill-opacity:1"
+       id="rect9093"
+       width="755"
+       height="325"
+       x="-237.57976"
+       y="4416.8838" />
+    <rect
        style="fill:#cacac7;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect23290"
        width="766"
        height="334"
-       x="990.53857"
-       y="3861.5137" />
+       x="778.53857"
+       y="4135.5137" />
     <g
        transform="matrix(0.50587969,0.06376814,0.05622796,-0.44606262,-688.46272,4756.2278)"
        id="g3465">
@@ -16002,7 +16009,7 @@
     </g>
     <g
        id="g37585"
-       transform="translate(-32,10)">
+       transform="translate(-328.95328,-43.514783)">
       <rect
          style="fill:#3d3d3d;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="rect4269"
