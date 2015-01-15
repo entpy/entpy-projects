@@ -20,19 +20,22 @@ Le funzionalità rilevate sono:
 -----------------------------------------------------
 	* Iscrizione alla piattaforma
 	* Visualizzazione passerella
-	* Visualizzazione book partecipante
+	* Visualizzazione profilo partecipante
 	* Votazione partecipante
 	* Aggiunta di un partecipante all'elenco preferiti
+	* Segnalazione di un partecipante
+	* Richiesta di assistenza
 -----------------------------------------------------
 
 === Profilo privato ===
 Le funzionalità rilevate sono:
 
 -----------------------------------------------------
-	* Modifica dei dati del profilo
-	* Aggiunta/rimozione foto per la passerella
-	* Visualizzazione statistiche (visite, punti, posizione in classifica, ...)
-	* Eliminazione del profilo
+	* Aggiunta/modifica dei dati del profilo
+	* Aggiunta/rimozione foto (profilo e del book)
+	* Visualizzazione statistiche
+	* Visualizzazione/rimozione utenti dall'elenco dei preferiti
+	* Eliminazione dell'account
 -----------------------------------------------------
 
 == ((Analisi relazionale)) ==
@@ -42,10 +45,9 @@ Le entità rilevate sono le seguenti:
 
 -----------------------------------------------------
 	* Contests
-	* Participants
+	* Accounts
 	* Contest_Stats
 	* Votes
-	* Metrics
 -----------------------------------------------------
 
 === Attributi delle entita' ===
@@ -62,50 +64,55 @@ Gli attributi rilevati per ogni entità:
 	* status (0 in attesa di apertura, 1 attivo, 2 chiuso)
 -----------------------------------------------------
 
-==== Participants ====
+==== Images ====
 
 -----------------------------------------------------
-	* id_participant (PK)
+	* id_image (PK)
+	* id_account
+	* image_name
+	* type (0 foto profilo, 1 foto del book)
+
+==== Accounts ====
+
+-----------------------------------------------------
+	* id_account (PK)
 	* first_name
 	* last_name
-	* username
 	* email
 	* password
 	* city
 	* country
 	* gender
+	* auth
+	* status
 	* creation_date
 	* update_date
------------------------------------------------------
-
-==== Contest_Stats ====
-
------------------------------------------------------
-	* id_contest_stat (PK)
-	* id_participant
-	* id_contest
-	* id_metric
-	* points
 -----------------------------------------------------
 
 ==== Votes ====
 
 -----------------------------------------------------
 	* id_vote (PK)
-	* id_participant
+	* id_account
 	* id_contest
 	* ip_address
+	* id_metric
 	* date
+	* points
 -----------------------------------------------------
 
 ==== Metrics ====
 
 -----------------------------------------------------
-	* id_metric (PK)
-	* name
-	* min_limit
-	* max_limit
+        * id_metric (PK)
+        * name
 -----------------------------------------------------
 
 == ((UML)) ==
 Definire qua l'UML.
+
+==== Contests ====
+==== Accounts ====
+==== Images ====
+==== Votes ====
+==== Metrics ====
