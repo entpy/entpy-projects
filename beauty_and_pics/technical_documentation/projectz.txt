@@ -6,10 +6,10 @@ v0.0.1, Dicembre 2014: REVISIONE CORRENTE: Prima stesura del documento
 == ((Analisi funzionale)) ==
 La piattaforma è suddivisa in due parti:
 
------------------------------------------------------
+-------------------------------------------------------------------------------
 	* Parte pubblica (da qui in avanti definita come "passerella")
 	* Parte privata (da qui in avanti definita come "profilo privato" )
------------------------------------------------------
+-------------------------------------------------------------------------------
 
 Qui di seguito verranno definite le funzionalità messe a disposizione dalla passerella e dal profilo
 
@@ -17,7 +17,7 @@ Qui di seguito verranno definite le funzionalità messe a disposizione dalla pas
 === Passerella ===
 Le funzionalità rilevate sono:
 
------------------------------------------------------
+---------------------------------------------------------------------------
 	* Iscrizione alla piattaforma
 	* Visualizzazione passerella
 	* Visualizzazione profilo partecipante
@@ -25,18 +25,18 @@ Le funzionalità rilevate sono:
 	* Aggiunta di un partecipante all'elenco preferiti
 	* Segnalazione di un partecipante
 	* Richiesta di assistenza
------------------------------------------------------
+---------------------------------------------------------------------------
 
 === Profilo privato ===
 Le funzionalità rilevate sono:
 
------------------------------------------------------
+---------------------------------------------------------------------------
 	* Aggiunta/modifica dei dati del profilo
 	* Aggiunta/rimozione foto (profilo e del book)
 	* Visualizzazione statistiche
 	* Visualizzazione/rimozione utenti dall'elenco dei preferiti
 	* Eliminazione dell'account
------------------------------------------------------
+---------------------------------------------------------------------------
 
 == ((Analisi relazionale)) ==
 Definizione della struttura del database relazionale.
@@ -46,23 +46,117 @@ Le entità rilevate sono le seguenti:
 -----------------------------------------------------
 	* Contests
 	* Accounts
-	* Contest_Stats
+	* Images
+	* Points
+	* Metrics
+	* Voters
 	* Votes
+	* Favorites
 -----------------------------------------------------
 
-=== Attributi delle entita' ===
-Gli attributi rilevati per ogni entità:
+== ((UML)) ==
+
+----------------------------------------------------------------
+
+                         Favorites        Contests
+					    1 |
+					      |
+      1    N      N      1		    N V
+Voters------>Votes<-------Accounts-------->Points<------Metrics
+			  1 |     1       N      N     1
+			    |
+			    |
+			  N V
+			  Images
+----------------------------------------------------------------
+
+== ((Relazioni tra le tabelle)) ==
+
+----------------------------------------------------------------
+Metrics 	Points
+o----+---------->o
+     +---------->o
+     +---------->o
+
+o--------------->o
+     +---------->o
+----------------------------------------------------------------
+Tipo di relazione: 1-N
+Descrizione: per una metrica (es. sguardo) possiamo avere più punti
+
+----------------------------------------------------------------
+Contests 	Points
+o----+---------->o
+     +---------->o
+     +---------->o
+
+o--------------->o
+     +---------->o
+----------------------------------------------------------------
+Tipo di relazione: 1-N
+Descrizione: Ogni contest racchiude un insieme di punti
+
+----------------------------------------------------------------
+Accounts 	Points
+o----+---------->o
+     +---------->o
+     +---------->o
+
+o--------------->o
+     +---------->o
+----------------------------------------------------------------
+Tipo di relazione: 1-N
+Descrizione: Ogni account può avere tante righe di punti a gruppi di tre (uno per metrica in questo caso e le metriche per ora sono tre)
+
+----------------------------------------------------------------
+Accounts 	Images
+o----+---------->o
+     +---------->o
+     +---------->o
+
+o--------------->o
+     +---------->o
+o
+----------------------------------------------------------------
+Tipo di relazione: 1-N
+Descrizione: Ogni account può avere zero o più foto
+
+----------------------------------------------------------------
+Voters 		Accounts       Voters
+o----+---------->o   o----------->o
+     +---------->o       +------->o
+     +---------->o       +------->o
+
+o--------------->o   o----------->o
+     +---------->o
+----------------------------------------------------------------
+Tipo di relazione: N-N
+Descrizione: Ogni votante può votare uno o più account, un account può essere votato da uno o più votanti una volta sola nell'arco della settimana
+
+----------------------------------------------------------------
+Accounts 	Favorites        Accounts
+o----+---------->o     o---------->o
+     +---------->o         +------>o
+     +---------->o     o---------->o
+
+o--------------->o
+     +---------->o
+----------------------------------------------------------------
+Tipo di relazione: ricorsiva
+Descrizione: un account può avere più preferiti, il preferito di un account può esserlo di più account
+
+== ((Schema logico)) ==
 
 ==== Contests ====
 
------------------------------------------------------
+----------------------------------------------------------------
 	* id_contest (PK)
 	* start_date
 	* end_date
 	* name
 	* description
 	* status (0 in attesa di apertura, 1 attivo, 2 chiuso)
------------------------------------------------------
+----------------------------------------------------------------
 
 ==== Images ====
 
@@ -71,6 +165,7 @@ Gli attributi rilevati per ogni entità:
 	* id_account
 	* image_name
 	* type (0 foto profilo, 1 foto del book)
+-----------------------------------------------------
 
 ==== Accounts ====
 
@@ -89,13 +184,12 @@ Gli attributi rilevati per ogni entità:
 	* update_date
 -----------------------------------------------------
 
-==== Votes ====
+==== Points ====
 
 -----------------------------------------------------
-	* id_vote (PK)
-	* id_account
+	* id_point (PK)
 	* id_contest
-	* ip_address
+	* id_account
 	* id_metric
 	* date
 	* points
@@ -108,11 +202,18 @@ Gli attributi rilevati per ogni entità:
         * name
 -----------------------------------------------------
 
-== ((UML)) ==
-Definire qua l'UML.
+==== Voters ====
 
-==== Contests ====
-==== Accounts ====
-==== Images ====
+-----------------------------------------------------
+        * id_voter (PK)
+        * ip_address
+-----------------------------------------------------
+
 ==== Votes ====
-==== Metrics ====
+
+-----------------------------------------------------
+        * id_vote (PK)
+        * id_account
+        * id_voter
+        * date
+-----------------------------------------------------
