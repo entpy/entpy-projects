@@ -50,25 +50,8 @@ Le entità rilevate sono le seguenti:
 	* Points
 	* Metrics
 	* Voters
-	* Votes
 	* Favorites
 -----------------------------------------------------
-
-== ((UML)) ==
-
-----------------------------------------------------------------
-
-                         Favorites        Contests
-					    1 |
-					      |
-      1    N      N      1		    N V
-Voters------>Votes<-------Accounts-------->Points<------Metrics
-			  1 |     1       N      N     1
-			    |
-			    |
-			  N V
-			  Images
-----------------------------------------------------------------
 
 == ((Relazioni tra le tabelle)) ==
 
@@ -109,6 +92,18 @@ Tipo di relazione: 1-N
 Descrizione: Ogni account può avere tante righe di punti a gruppi di tre (uno per metrica in questo caso e le metriche per ora sono tre)
 
 ----------------------------------------------------------------
+Voters 		Accounts       Voters
+o----+---------->o   o----------->o
+     +---------->o       +------->o
+     +---------->o       +------->o
+
+o--------------->o   o----------->o
+     +---------->o
+----------------------------------------------------------------
+Tipo di relazione: N-M
+Descrizione: Ogni votante può votare uno o più account, un account può essere votato da uno o più votanti una volta sola nell'arco della settimana
+
+----------------------------------------------------------------
 Accounts 	Images
 o----+---------->o
      +---------->o
@@ -122,18 +117,6 @@ Tipo di relazione: 1-N
 Descrizione: Ogni account può avere zero o più foto
 
 ----------------------------------------------------------------
-Voters 		Accounts       Voters
-o----+---------->o   o----------->o
-     +---------->o       +------->o
-     +---------->o       +------->o
-
-o--------------->o   o----------->o
-     +---------->o
-----------------------------------------------------------------
-Tipo di relazione: N-N
-Descrizione: Ogni votante può votare uno o più account, un account può essere votato da uno o più votanti una volta sola nell'arco della settimana
-
-----------------------------------------------------------------
 Accounts 	Favorites        Accounts
 o----+---------->o     o---------->o
      +---------->o         +------>o
@@ -142,12 +125,32 @@ o----+---------->o     o---------->o
 o--------------->o
      +---------->o
 ----------------------------------------------------------------
-Tipo di relazione: ricorsiva
+Tipo di relazione: N-M
 Descrizione: un account può avere più preferiti, il preferito di un account può esserlo di più account
+
+== ((UML)) ==
+
+----------------------------------------------------------------
+		 Favorites        Contests
+		     ^ N 	    1 |
+		     |  	      |
+		     |                |
+		     |                |
+		     |                |
+	  N      1   V N 	    N V
+    Voters<-------Accounts-------->Points<------Metrics
+		  1  |    1       N      N     1
+		     |
+		     |
+		     |
+		     |
+		  N  V
+		   Images
+----------------------------------------------------------------
 
 == ((Schema logico)) ==
 
-==== Contests ====
+=== Contests ===
 
 ----------------------------------------------------------------
 	* id_contest (PK)
@@ -158,7 +161,7 @@ Descrizione: un account può avere più preferiti, il preferito di un account pu
 	* status (0 in attesa di apertura, 1 attivo, 2 chiuso)
 ----------------------------------------------------------------
 
-==== Images ====
+=== Images ===
 
 -----------------------------------------------------
 	* id_image (PK)
@@ -167,7 +170,7 @@ Descrizione: un account può avere più preferiti, il preferito di un account pu
 	* type (0 foto profilo, 1 foto del book)
 -----------------------------------------------------
 
-==== Accounts ====
+=== Accounts ===
 
 -----------------------------------------------------
 	* id_account (PK)
@@ -184,7 +187,7 @@ Descrizione: un account può avere più preferiti, il preferito di un account pu
 	* update_date
 -----------------------------------------------------
 
-==== Points ====
+=== Points ===
 
 -----------------------------------------------------
 	* id_point (PK)
@@ -195,25 +198,26 @@ Descrizione: un account può avere più preferiti, il preferito di un account pu
 	* points
 -----------------------------------------------------
 
-==== Metrics ====
+=== Metrics ===
 
 -----------------------------------------------------
         * id_metric (PK)
         * name
 -----------------------------------------------------
 
-==== Voters ====
+=== Voters ===
 
 -----------------------------------------------------
         * id_voter (PK)
-        * ip_address
------------------------------------------------------
-
-==== Votes ====
-
------------------------------------------------------
-        * id_vote (PK)
         * id_account
-        * id_voter
+        * ip_address
         * date
+-----------------------------------------------------
+
+=== Favorites ===
+
+-----------------------------------------------------
+        * id_favorite (PK)
+        * id_account
+        * id_account_favorite
 -----------------------------------------------------
