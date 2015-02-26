@@ -112,7 +112,7 @@ o--------------->o
      +---------->o
 o
 ----------------------------------------------------------------
-Tipo di relazione: 1-N
+Tipo di relazione: 1-M
 Descrizione: Ogni account può avere zero o più foto
 
 ----------------------------------------------------------------
@@ -120,12 +120,13 @@ Accounts 	Favorites        Accounts
 o----+---------->o     o---------->o
      +---------->o     o---------->o
      +---------->o     o---------->o
+			   +------>o
 
 o--------------->o
      +---------->o
 ----------------------------------------------------------------
-Tipo di relazione: 0-N
-Descrizione: un account può avere zero più preferiti
+Tipo di relazione: N-M
+Descrizione: un account può avere zero più preferiti, lo stesso account può essere il preferito da molti account
 
 == ((UML)) ==
 
@@ -136,7 +137,7 @@ Descrizione: un account può avere zero più preferiti
 		          |                |
 		          |                |
 		          |                |
-	  0,N         1   V 1 	         N V
+	  0,N         1   V N 	         N V
     Votes<------------Accounts-------->Points<------Metrics
 	 	        1 |   1       N      N     1
 	                  |
@@ -164,7 +165,7 @@ Descrizione: un account può avere zero più preferiti
 
 -----------------------------------------------------
 	* id_image (PK)
-	* id_account
+	* id_account (FK)
 	* image_url
 	* type (0 foto profilo, 1 foto del book)
 -----------------------------------------------------
@@ -189,7 +190,7 @@ Descrizione: un account può avere zero più preferiti
 
 -----------------------------------------------------
         * id_vote (PK)
-        * id_account
+        * id_account (FK)
         * ip_address
         * date
 -----------------------------------------------------
@@ -198,9 +199,9 @@ Descrizione: un account può avere zero più preferiti
 
 -----------------------------------------------------
 	* id_point (PK)
-	* id_contest
-	* id_account
-	* id_metric
+	* id_contest (FK)
+	* id_account (FK)
+	* id_metric (FK)
 	* date
 	* points
 -----------------------------------------------------
@@ -216,6 +217,6 @@ Descrizione: un account può avere zero più preferiti
 
 -----------------------------------------------------
         * id_favorite (PK)
-        * id_account
-        * id_account_favorite
+        * id_account (FK)
+        * id_account_favorite (FK)
 -----------------------------------------------------
