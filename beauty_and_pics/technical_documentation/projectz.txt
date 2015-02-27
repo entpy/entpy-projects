@@ -220,3 +220,14 @@ Descrizione: un account può avere zero più preferiti, lo stesso account può e
         * id_account (FK)
         * id_account_favorite (FK)
 -----------------------------------------------------
+
+== ((Applicazioni Django rilevate)) ==
+*custom_form_app*: + 
+App per la gestione dei form
+
+*contest_app*: + 
+App per la gestione del contest
+
+*stats_app*: + 
+App per la gestione delle statistiche
+
