@@ -167,7 +167,7 @@ Descrizione: un account può avere zero più preferiti, lo stesso account può e
 	* id_image (PK)
 	* id_account (FK)
 	* image_url
-	* type (0 foto profilo, 1 foto del book)
+	* image_type (0 foto profilo, 1 foto del book)
 -----------------------------------------------------
 
 === Accounts ===
@@ -222,12 +222,13 @@ Descrizione: un account può avere zero più preferiti, lo stesso account può e
 -----------------------------------------------------
 
 == ((Applicazioni Django rilevate)) ==
-*custom_form_app*: + 
+*custom_form_app*:
 App per la gestione dei form
 
-*contest_app*: + 
+*contest_app*:
 App per la gestione del contest
+Votes - Points - Contests - Metrics
 
-*stats_app*: + 
-App per la gestione delle statistiche
-
+*account_app*:
+App per la gestione degli account
+Favorites - Accounts - Images
