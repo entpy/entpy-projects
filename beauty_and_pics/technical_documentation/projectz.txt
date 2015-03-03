@@ -182,6 +182,7 @@ Descrizione: un account può avere zero più preferiti, lo stesso account può e
 	* country
 	* gender
 	* status
+	* birthday_date
 	* creation_date
 	* update_date
 -----------------------------------------------------
