@@ -18928,9 +18928,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.375"
-     inkscape:cx="-45.906349"
-     inkscape:cy="188.72252"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="-176.28825"
+     inkscape:cy="133.40605"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
@@ -19082,6 +19082,65 @@
            y="203.8085"
            x="43.422447"
            sodipodi:role="line">and</tspan></text>
+    </g>
+    <g
+       id="g6653"
+       inkscape:export-filename="/home/maria/Sviluppo/entpy-projects/beauty_and_pics/graphics/icons/logo1.png"
+       inkscape:export-xdpi="90.000008"
+       inkscape:export-ydpi="90.000008">
+      <rect
+         y="40.81739"
+         x="-374.12201"
+         height="156"
+         width="278"
+         id="rect6619"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <g
+         id="g6621"
+         transform="matrix(1.390427,0,0,1.390427,-381.94517,-133.84884)"
+         inkscape:export-filename="/home/maria/Sviluppo/entpy-projects/beauty_and_pics/graphics/social/logo_large.png"
+         inkscape:export-xdpi="399"
+         inkscape:export-ydpi="399">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6623"
+           y="183.76266"
+           x="16.250231"
+           style="font-size:20.94485855px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#075cff;fill-opacity:1;stroke:#81acff;stroke-width:0.72951514;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+           xml:space="preserve"
+           transform="matrix(0.99415936,-0.107922,0.107922,0.99415936,0,0)"><tspan
+             id="tspan6625"
+             style="font-size:41.03522491px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#075cff;fill-opacity:1;stroke:#81acff;stroke-width:0.72951514;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold"
+             y="183.76266"
+             x="16.250231"
+             sodipodi:role="line">Beauty</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:22.60283089px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff11b5;fill-opacity:1;stroke:#ff81d8;stroke-width:0.78726268;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+           x="95.739555"
+           y="203.68138"
+           id="text6627"
+           sodipodi:linespacing="125%"
+           transform="matrix(0.99395259,0.10981006,-0.10981006,0.99395259,0,0)"><tspan
+             id="tspan6629"
+             sodipodi:role="line"
+             x="95.739555"
+             y="203.68138"
+             style="font-size:44.28352356px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff11b5;fill-opacity:1;stroke:#ff81d8;stroke-width:0.78726268;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">Pics</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6631"
+           y="203.8085"
+           x="43.422447"
+           style="font-size:13.30785942px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato Light"
+           xml:space="preserve"
+           inkscape:transform-center-y="-27.112163"><tspan
+             style="font-size:14.48488426px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;fill:#a1a1a1;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Light"
+             id="tspan6633"
+             y="203.8085"
+             x="43.422447"
+             sodipodi:role="line">and</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
