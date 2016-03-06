@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="500"
+   height="2828.2979"
+   id="svg25498"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="retro.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview14"
+     showgrid="false"
+     inkscape:zoom="0.10182803"
+     inkscape:cx="301.92915"
+     inkscape:cy="1087.9233"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg25498" />
+  <defs
+     id="defs25500" />
+  <metadata
+     id="metadata25503">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-362.68091,2226.2512)"
+     id="layer1">
+    <g
+       transform="matrix(20.293718,0,0,20.293718,-6937.5408,-15549.439)"
+       id="g25461">
+      <text
+         x="710.86084"
+         y="-370.1557"
+         transform="matrix(0,1,-1,0,0,0)"
+         id="text34692"
+         xml:space="preserve"
+         style="font-size:6.85637999px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a1a1a1;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+           x="710.86084"
+           y="-370.1557"
+           id="tspan34694"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Ubuntu;-inkscape-font-specification:Ubuntu">www.beautyandpics.com</tspan></text>
+      <g
+         transform="matrix(1.4405176,0,0,-1.4405176,142.22123,2115.8625)"
+         id="g10382"
+         style="fill:none">
+        <text
+           x="44.684101"
+           y="-1001.364"
+           transform="matrix(0.9939526,-0.10981001,-0.10981001,-0.9939526,0,0)"
+           id="text10332"
+           xml:space="preserve"
+           style="font-size:9.01818274999999936px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;stroke:#ff11b5;stroke-width:0.31410568999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"><tspan
+             x="44.684101"
+             y="-1001.364"
+             id="tspan10334"
+             style="font-size:17.66844748999999837px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;stroke:#ff11b5;stroke-width:0.31410568999999999;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">P</tspan></text>
+        <text
+           x="257.83658"
+           y="-976.66626"
+           transform="matrix(0.99415937,0.10792198,0.10792198,-0.99415937,0,0)"
+           id="text10328"
+           xml:space="preserve"
+           style="font-size:9.01818274999999936px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;stroke:#075cff;stroke-width:0.31410571999999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"><tspan
+             x="257.83658"
+             y="-976.66626"
+             id="tspan10330"
+             style="font-size:17.66844748999999837px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;stroke:#075cff;stroke-width:0.31410571999999998;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Bold">B</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
