@@ -1,4 +1,0 @@
-FONTS:
-
-- Lato by tyPoland Lukasz Dziedzic: http://www.fontsquirrel.com/fonts/lato
-
