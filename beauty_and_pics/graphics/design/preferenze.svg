@@ -11563,9 +11563,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="2812.3995"
-     inkscape:cy="1029.9044"
+     inkscape:zoom="1.4"
+     inkscape:cx="2902.3983"
+     inkscape:cy="963.78218"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -11586,7 +11586,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40469,64 +40469,49 @@
          sodipodi:role="line">Ottieni premio</tspan></text>
     <g
        id="g36354"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36356"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36358"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36360"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36362"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36364"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36366"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36368"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36370"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36372"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36374"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36376"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36378"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36380"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g36382"
-       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)">
-</g>
+       transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)" />
     <g
        id="g37360"
        transform="matrix(0.5627575,0,0,0.5627575,947.29278,52.823686)">
@@ -40534,82 +40519,72 @@
          style="fill:#000000"
          transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)"
          id="Collar_12_">
-	<g
-   style="fill:#000000"
-   id="g36330">
-		<path
-   id="path36332"
-   d="M 40,2 C 38,0 36,0 32,0 28,0 26,0 24,2 L 20,6 32,18.001 44,6 40,2 z"
-   style="fill:#000000"
-   inkscape:connector-curvature="0" />
-
-	</g>
-
-</g>
+        <g
+           style="fill:#000000"
+           id="g36330">
+          <path
+             id="path36332"
+             d="M 40,2 C 38,0 36,0 32,0 28,0 26,0 24,2 L 20,6 32,18.001 44,6 40,2 z"
+             style="fill:#000000"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
       <g
          style="fill:#000000"
          transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)"
          id="Interior_11_">
-	<g
-   style="fill:#000000"
-   id="g36335">
-		<path
-   id="path36337"
-   d="M 42,6 C 40,4.001 34,4.001 32,4.001 c -2,0 -8,0 -10,1.999 L 20,10 32,20.001 44,10 42,6 z"
-   style="fill:#000000"
-   inkscape:connector-curvature="0" />
-
-	</g>
-
-</g>
+        <g
+           style="fill:#000000"
+           id="g36335">
+          <path
+             id="path36337"
+             d="M 42,6 C 40,4.001 34,4.001 32,4.001 c -2,0 -8,0 -10,1.999 L 20,10 32,20.001 44,10 42,6 z"
+             style="fill:#000000"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
       <g
          style="fill:#1a1a1a"
          transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)"
          id="Collar_13_">
-	<g
-   style="fill:#1a1a1a"
-   id="g36340">
-		<path
-   id="path36342"
-   d="M 40,2 C 40,2 38,8 32,8 26,8 24,2 24,2 l -4,2.001 c 0,0 4,8 12,8 8,0 12,-8 12,-8 L 40,2 z"
-   style="fill:#1a1a1a"
-   inkscape:connector-curvature="0" />
-
-	</g>
-
-</g>
+        <g
+           style="fill:#1a1a1a"
+           id="g36340">
+          <path
+             id="path36342"
+             d="M 40,2 C 40,2 38,8 32,8 26,8 24,2 24,2 l -4,2.001 c 0,0 4,8 12,8 8,0 12,-8 12,-8 L 40,2 z"
+             style="fill:#1a1a1a"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
       <g
          style="fill:#000000"
          transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)"
          id="Shirt_6_">
-	<g
-   style="fill:#000000"
-   id="g36345">
-		<path
-   id="path36347"
-   d="M 50,30 62,24 C 59.847,18.659 56,12.001 54,10 52,8 48,6 44,4.001 c 0,0 -4,8 -12,8 -8,0 -12,-8 -12,-8 C 16,6 12,8 10,10 8,12.001 4.153,18.659 2,24 l 12,6 c 1.275,-2.57 2,-2 2,-2 0,0 -2,28.001 -2,30 0,2.001 4,4 18,4 14,0 18,-1.999 18,-4 0,-2 -2,-30 -2,-30 0,0 0.725,-0.57 2,2 z"
-   style="fill:#000000"
-   inkscape:connector-curvature="0" />
-
-	</g>
-
-</g>
+        <g
+           style="fill:#000000"
+           id="g36345">
+          <path
+             id="path36347"
+             d="M 50,30 62,24 C 59.847,18.659 56,12.001 54,10 52,8 48,6 44,4.001 c 0,0 -4,8 -12,8 -8,0 -12,-8 -12,-8 C 16,6 12,8 10,10 8,12.001 4.153,18.659 2,24 l 12,6 c 1.275,-2.57 2,-2 2,-2 0,0 -2,28.001 -2,30 0,2.001 4,4 18,4 14,0 18,-1.999 18,-4 0,-2 -2,-30 -2,-30 0,0 0.725,-0.57 2,2 z"
+             style="fill:#000000"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
       <g
          style="fill:#1a1a1a"
          transform="matrix(2.1495536,0,0,2.1495536,2175.2273,502.97827)"
          id="Fringe_3_">
-	<g
-   style="fill:#1a1a1a"
-   id="g36350">
-		<path
-   id="path36352"
-   d="m 0,28 c 0,1.75 10.25,6 12,6 0.575,0 1.376,-2.742 2,-4 L 2,24 c -0.586,1.452 -2,3.626 -2,4 z m 62,-4 -12,6 c 0.624,1.258 1.425,4 2,4 1.75,0 12,-4.25 12,-6 0,-0.374 -1.415,-2.548 -2,-4 z"
-   style="fill:#1a1a1a;fill-rule:evenodd"
-   inkscape:connector-curvature="0" />
-
-	</g>
-
-</g>
+        <g
+           style="fill:#1a1a1a"
+           id="g36350">
+          <path
+             id="path36352"
+             d="m 0,28 c 0,1.75 10.25,6 12,6 0.575,0 1.376,-2.742 2,-4 L 2,24 c -0.586,1.452 -2,3.626 -2,4 z m 62,-4 -12,6 c 0.624,1.258 1.425,4 2,4 1.75,0 12,-4.25 12,-6 0,-0.374 -1.415,-2.548 -2,-4 z"
+             style="fill:#1a1a1a;fill-rule:evenodd"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
       <g
          transform="matrix(0.7777159,0,0,0.7777159,593.52319,171.52952)"
          id="g36516">
@@ -40640,6 +40615,123 @@
              sodipodi:role="line"
              id="tspan4820">P</tspan></text>
       </g>
+    </g>
+    <rect
+       style="fill:#e4e4e4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect12350"
+       width="200"
+       height="162.62436"
+       x="2346.2708"
+       y="308.49487"
+       rx="4" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#18bc9c;fill-opacity:1;stroke:none;font-family:Sans"
+       x="2413.0002"
+       y="447.63959"
+       id="text12352"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan12354"
+         x="2413.0002"
+         y="447.63959"
+         style="font-size:14px;fill:#18bc9c;fill-opacity:1">Intervista</tspan></text>
+    <g
+       id="g12711"
+       transform="matrix(1.1724108,0,0,1.1724108,2408.7337,335.87848)"
+       inkscape:export-filename="/home/maria/Sviluppo/beauty-and-pics/beauty_and_pics/website/static/website/img/preferences_interview.png"
+       inkscape:export-xdpi="119.88137"
+       inkscape:export-ydpi="119.88137">
+      <g
+         id="Body_2_">
+	<g
+   id="g12660-4">
+		<path
+   id="path12662"
+   d="M 52.818,16.891 47.082,11.155 C 45.498,9.57 42.93,9.57 41.346,11.155 L 1.188,55.31 c -1.584,1.584 -1.584,4.152 0,5.736 l 1.736,1.736 c 1.585,1.585 4.152,1.585 5.737,0 L 52.818,22.627 c 1.584,-1.584 1.584,-4.152 0,-5.736 z"
+   style="fill:#666666"
+   inkscape:connector-curvature="0" />
+
+	</g>
+
+</g>
+      <g
+         id="Ball">
+	<g
+   id="g12665">
+		<circle
+   id="circle12667"
+   r="16"
+   cy="16"
+   cx="48.034"
+   style="fill:#cccccc"
+   sodipodi:cx="48.034"
+   sodipodi:cy="16"
+   sodipodi:rx="16"
+   sodipodi:ry="16"
+   d="m 64.034,16 c 0,8.836556 -7.163444,16 -16,16 -8.836556,0 -16,-7.163444 -16,-16 0,-8.836556 7.163444,-16 16,-16 8.836556,0 16,7.163444 16,16 z" />
+
+	</g>
+
+</g>
+      <g
+         id="Lines_1_">
+	<g
+   id="g12670-9">
+		<path
+   id="path12672"
+   d="m 33.45,18.588 c -0.361,-0.362 -0.862,-0.587 -1.415,-0.587 -1.104,0 -2,0.896 -2,2 0,0.553 0.225,1.054 0.587,1.415 L 42.62,33.414 c 0.361,0.362 0.862,0.587 1.415,0.587 1.104,0 2,-0.896 2,-2 0,-0.553 -0.225,-1.054 -0.587,-1.415 L 33.45,18.588 z M 57.448,28.586 35.45,6.588 C 35.089,6.226 34.588,6.001 34.035,6.001 c -1.104,0 -2,0.896 -2,2 0,0.553 0.225,1.054 0.587,1.415 L 54.62,31.414 c 0.361,0.362 0.862,0.587 1.415,0.587 1.104,0 2,-0.896 2,-2 0,-0.553 -0.224,-1.054 -0.587,-1.415 z"
+   style="fill:#b3b3b3;fill-rule:evenodd"
+   inkscape:connector-curvature="0" />
+
+	</g>
+
+</g>
+      <g
+         id="g12674-6">
+</g>
+      <g
+         id="g12676">
+</g>
+      <g
+         id="g12678-2">
+</g>
+      <g
+         id="g12680-7">
+</g>
+      <g
+         id="g12682-7">
+</g>
+      <g
+         id="g12684-7">
+</g>
+      <g
+         id="g12686-2">
+</g>
+      <g
+         id="g12688">
+</g>
+      <g
+         id="g12690-4">
+</g>
+      <g
+         id="g12692-1">
+</g>
+      <g
+         id="g12694-4">
+</g>
+      <g
+         id="g12696-3">
+</g>
+      <g
+         id="g12698-3">
+</g>
+      <g
+         id="g12700">
+</g>
+      <g
+         id="g12702-5">
+</g>
     </g>
   </g>
 </svg>
