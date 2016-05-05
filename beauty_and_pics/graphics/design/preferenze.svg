@@ -11563,9 +11563,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="2902.3983"
-     inkscape:cy="963.78218"
+     inkscape:zoom="1.979899"
+     inkscape:cx="2554.6477"
+     inkscape:cy="854.69538"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40644,93 +40644,183 @@
        inkscape:export-ydpi="119.88137">
       <g
          id="Body_2_">
-	<g
-   id="g12660-4">
-		<path
-   id="path12662"
-   d="M 52.818,16.891 47.082,11.155 C 45.498,9.57 42.93,9.57 41.346,11.155 L 1.188,55.31 c -1.584,1.584 -1.584,4.152 0,5.736 l 1.736,1.736 c 1.585,1.585 4.152,1.585 5.737,0 L 52.818,22.627 c 1.584,-1.584 1.584,-4.152 0,-5.736 z"
-   style="fill:#666666"
-   inkscape:connector-curvature="0" />
-
-	</g>
-
-</g>
+        <g
+           id="g12660-4">
+          <path
+             id="path12662"
+             d="M 52.818,16.891 47.082,11.155 C 45.498,9.57 42.93,9.57 41.346,11.155 L 1.188,55.31 c -1.584,1.584 -1.584,4.152 0,5.736 l 1.736,1.736 c 1.585,1.585 4.152,1.585 5.737,0 L 52.818,22.627 c 1.584,-1.584 1.584,-4.152 0,-5.736 z"
+             style="fill:#666666"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
       <g
          id="Ball">
-	<g
-   id="g12665">
-		<circle
-   id="circle12667"
-   r="16"
-   cy="16"
-   cx="48.034"
-   style="fill:#cccccc"
-   sodipodi:cx="48.034"
-   sodipodi:cy="16"
-   sodipodi:rx="16"
-   sodipodi:ry="16"
-   d="m 64.034,16 c 0,8.836556 -7.163444,16 -16,16 -8.836556,0 -16,-7.163444 -16,-16 0,-8.836556 7.163444,-16 16,-16 8.836556,0 16,7.163444 16,16 z" />
-
-	</g>
-
-</g>
+        <g
+           id="g12665">
+          <circle
+             id="circle12667"
+             r="16"
+             cy="16"
+             cx="48.034"
+             style="fill:#cccccc"
+             sodipodi:cx="48.034"
+             sodipodi:cy="16"
+             sodipodi:rx="16"
+             sodipodi:ry="16"
+             d="m 64.034,16 c 0,8.836556 -7.163444,16 -16,16 -8.836556,0 -16,-7.163444 -16,-16 0,-8.836556 7.163444,-16 16,-16 8.836556,0 16,7.163444 16,16 z" />
+        </g>
+      </g>
       <g
          id="Lines_1_">
+        <g
+           id="g12670-9">
+          <path
+             id="path12672"
+             d="m 33.45,18.588 c -0.361,-0.362 -0.862,-0.587 -1.415,-0.587 -1.104,0 -2,0.896 -2,2 0,0.553 0.225,1.054 0.587,1.415 L 42.62,33.414 c 0.361,0.362 0.862,0.587 1.415,0.587 1.104,0 2,-0.896 2,-2 0,-0.553 -0.225,-1.054 -0.587,-1.415 L 33.45,18.588 z M 57.448,28.586 35.45,6.588 C 35.089,6.226 34.588,6.001 34.035,6.001 c -1.104,0 -2,0.896 -2,2 0,0.553 0.225,1.054 0.587,1.415 L 54.62,31.414 c 0.361,0.362 0.862,0.587 1.415,0.587 1.104,0 2,-0.896 2,-2 0,-0.553 -0.224,-1.054 -0.587,-1.415 z"
+             style="fill:#b3b3b3;fill-rule:evenodd"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g12674-6" />
+      <g
+         id="g12676" />
+      <g
+         id="g12678-2" />
+      <g
+         id="g12680-7" />
+      <g
+         id="g12682-7" />
+      <g
+         id="g12684-7" />
+      <g
+         id="g12686-2" />
+      <g
+         id="g12688" />
+      <g
+         id="g12690-4" />
+      <g
+         id="g12692-1" />
+      <g
+         id="g12694-4" />
+      <g
+         id="g12696-3" />
+      <g
+         id="g12698-3" />
+      <g
+         id="g12700" />
+      <g
+         id="g12702-5" />
+    </g>
+    <rect
+       rx="4"
+       y="501.35202"
+       x="1874.1279"
+       height="162.62436"
+       width="200"
+       id="rect12376"
+       style="fill:#e4e4e4;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text12378"
+       y="640.4967"
+       x="1936.9199"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#18bc9c;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:14px;fill:#18bc9c;fill-opacity:1"
+         y="640.4967"
+         x="1936.9199"
+         id="tspan12380"
+         sodipodi:role="line">Statistiche</tspan></text>
+    <g
+       id="g25831"
+       transform="matrix(1.171875,0,0,1.171875,1942.3494,528.71884)"
+       inkscape:export-filename="/home/maria/Sviluppo/beauty-and-pics/beauty_and_pics/website/static/website/img/preferences_stats.png"
+       inkscape:export-xdpi="120"
+       inkscape:export-ydpi="120">
+      <g
+         id="Chart_3_">
 	<g
-   id="g12670-9">
+   id="g25781">
 		<path
-   id="path12672"
-   d="m 33.45,18.588 c -0.361,-0.362 -0.862,-0.587 -1.415,-0.587 -1.104,0 -2,0.896 -2,2 0,0.553 0.225,1.054 0.587,1.415 L 42.62,33.414 c 0.361,0.362 0.862,0.587 1.415,0.587 1.104,0 2,-0.896 2,-2 0,-0.553 -0.225,-1.054 -0.587,-1.415 L 33.45,18.588 z M 57.448,28.586 35.45,6.588 C 35.089,6.226 34.588,6.001 34.035,6.001 c -1.104,0 -2,0.896 -2,2 0,0.553 0.225,1.054 0.587,1.415 L 54.62,31.414 c 0.361,0.362 0.862,0.587 1.415,0.587 1.104,0 2,-0.896 2,-2 0,-0.553 -0.224,-1.054 -0.587,-1.415 z"
-   style="fill:#b3b3b3;fill-rule:evenodd"
+   id="path25783"
+   d="M 14,36 H 2 C 0.896,36 0,36.896 0,38 V 62.001 C 0,63.104 0.896,64 2,64 h 12 c 1.104,0 2,-0.896 2,-1.999 V 38 c 0,-1.104 -0.896,-2 -2,-2 z"
+   style="fill:#ed7161"
    inkscape:connector-curvature="0" />
 
 	</g>
 
 </g>
       <g
-         id="g12674-6">
+         id="Chart_4_">
+	<g
+   id="g25786">
+		<path
+   id="path25788"
+   d="M 34,0 H 22 C 20.896,0 20,0.896 20,2 V 62.001 C 20,63.104 20.895,64 22,64 h 12 c 1.104,0 2,-0.896 2,-1.999 V 2 C 36,0.896 35.104,0 34,0 z"
+   style="fill:#88c057"
+   inkscape:connector-curvature="0" />
+
+	</g>
+
 </g>
       <g
-         id="g12676">
+         id="Chart_5_">
+	<g
+   id="g25791">
+		<path
+   id="path25793"
+   d="M 54,20 H 42 c -1.104,0 -2,0.896 -2,2 V 62.001 C 40,63.104 40.896,64 42,64 h 12 c 1.104,0 2,-0.896 2,-1.999 V 22 c 0,-1.104 -0.896,-2 -2,-2 z"
+   style="fill:#48a0dc"
+   inkscape:connector-curvature="0" />
+
+	</g>
+
 </g>
       <g
-         id="g12678-2">
+         id="g25795">
 </g>
       <g
-         id="g12680-7">
+         id="g25797">
 </g>
       <g
-         id="g12682-7">
+         id="g25799">
 </g>
       <g
-         id="g12684-7">
+         id="g25801">
 </g>
       <g
-         id="g12686-2">
+         id="g25803">
 </g>
       <g
-         id="g12688">
+         id="g25805">
 </g>
       <g
-         id="g12690-4">
+         id="g25807">
 </g>
       <g
-         id="g12692-1">
+         id="g25809">
 </g>
       <g
-         id="g12694-4">
+         id="g25811">
 </g>
       <g
-         id="g12696-3">
+         id="g25813">
 </g>
       <g
-         id="g12698-3">
+         id="g25815">
 </g>
       <g
-         id="g12700">
+         id="g25817">
 </g>
       <g
-         id="g12702-5">
+         id="g25819">
+</g>
+      <g
+         id="g25821">
+</g>
+      <g
+         id="g25823">
 </g>
     </g>
   </g>
